@@ -1,4 +1,4 @@
-image: romeocontainers/entando-strapi-config:latest
+image: entando/entando-strapi-config:1.0.3
 dbms: postgresql
 ingressPath: "/entando-strapi-config-api"
 healthCheckPath: "/actuator/health"
